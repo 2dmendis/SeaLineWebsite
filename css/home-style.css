@@ -37,6 +37,8 @@ ul.topnav li.right {float: right;}
   /*background-color: #000050;*/
   background-color: #72bcd4;
   text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 
 }
 #company-name{
@@ -58,6 +60,8 @@ ul.topnav li.right {float: right;}
   border-style:solid;
   border-width: thin;
   border-color:black;
+  border-radius: 20px;
+  box-shadow: 5px 10px 20px #72bcd4 inset;
 }
 .card-title{
   color: #72bcd4;
@@ -73,6 +77,7 @@ ul.topnav li.right {float: right;}
 .card:hover{
   cursor: pointer;
 background-color: #72bcd4;
+box-shadow: 5px 10px 20px white inset;
 
 }
 .card:hover .card-title{
@@ -113,6 +118,8 @@ background-color: #72bcd4;
   height: 150px;
 }*/
 #contact-box{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   background-color: white;
   margin-top: 0px;
   margin-bottom: 0px;
