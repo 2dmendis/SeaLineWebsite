@@ -1,0 +1,150 @@
+body {margin: 0;
+  background-image: url("/images/ocean-background-png-hd-ocean-water-wallpapers-full-hd-recovered-png-1500.png");
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #72bcd4;}
+
+ul.topnav li.right {float: right;}
+
+
+#top-pic{
+  /*background-color: #000050;*/
+  height: 100px;
+  /*background-image: url("/images/watercolor-paint-background-free-thumb32.jpg")*/
+}
+
+#company-title{
+  /*background-color: #000050;*/
+  background-color: #72bcd4;
+  text-align: center;
+
+}
+#company-name{
+  color: white;
+  font-size: 5.5em;
+  font-family: serif;
+}
+#company-motto{
+  size: .7em;
+  font-family:sans-serif;
+}
+
+#card-holder{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.card{
+  background-color:white;
+  border-style:solid;
+  border-width: thin;
+  border-color:black;
+}
+.card-title{
+  color: #72bcd4;
+  text-align:center;
+  font-family:serif;
+  size: .9em;
+}
+.card-description{
+  size: .5em;
+  text-align:center;
+}
+
+.card:hover{
+  cursor: pointer;
+background-color: #72bcd4;
+
+}
+.card:hover .card-title{
+  color: blue;
+  cursor: pointer;
+}
+.card-bullet{
+  text-align: center;
+  size: .5em;
+}
+
+#mid-pic-holder{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#mid-pic{
+
+  height: 150px;
+
+}
+/*#first-pic{
+  background-image: url("/images/manhattan-street-wallpaper-wallpaper-1.jpg");
+  background-size: auto;
+  height: 150px;
+}*/
+
+/*#second-pic{
+  background-image: url("/images/2450.jpg");
+  height: 150px;
+}*/
+/*#third-pic{
+  background-image: url("/images/world with flags.jpg");
+  height: 150px;
+}*/
+/*#fourth-pic{
+  background-image: url("/images/cardboard-boxes-background-2.jpg");
+  height: 150px;
+}*/
+#contact-box{
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#contact-us{
+  color: #72bcd4;
+  text-align: center;
+  font-family: serif;
+  size: 2em;
+}
+.p #contact-content{
+
+  font-family:serif;
+  size: .7em;
+}
+#map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+
+#contact-map{
+  text-align:center;
+  background-color: grey;
+}
+
+#end-footer{
+  height: 130px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
